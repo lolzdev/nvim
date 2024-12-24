@@ -14,7 +14,6 @@ vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
-vim.o.maplocalleader = ","
 vim.g.vimtex_view_method = "zathura"
 vim.g.vimtex_compiler_method = "pdflatex"
 
